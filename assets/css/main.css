@@ -522,7 +522,7 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: #fff;
+    color: var(--color-primary);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
