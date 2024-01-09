@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Mobile nav toggle
    */
-
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
 
@@ -239,7 +238,9 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
- 
+ /**
+  * Popup home
+  */
   var myModal = new bootstrap.Modal(document.getElementById('modalAdvise'))
   myModal.show()
 
