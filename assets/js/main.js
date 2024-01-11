@@ -241,8 +241,13 @@ document.addEventListener('DOMContentLoaded', () => {
  /**
   * Popup home
   */
-  var myModal = new bootstrap.Modal(document.getElementById('modalAdvise'))
-  myModal.show()
+ var modalInform = document.getElementById('modalInform');
+
+  if(modalInform) {
+    var myModal = new bootstrap.Modal(modalInform)
+    myModal.show()
+  }
+  
 
 });
 
