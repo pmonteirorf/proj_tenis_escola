@@ -82,6 +82,7 @@ h6 {
   font-family: var(--font-cursiva);
   color: var(--color-primary);
   font-size: 2rem;
+  text-align: center;
 }
 
 
@@ -750,15 +751,11 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
-}
-
-.alt-services .icon-box h4 a {
   color: #000;
-  transition: 0.3s;
 }
 
-.alt-services .icon-box h4 a:hover {
-  color: var(--color-primary);
+.alt-services .icon-box:hover h4 {
+  color:  var(--color-primary);
 }
 
 .alt-services .icon-box p {
@@ -798,7 +795,9 @@ section {
 .team .team-donation a:hover{
   color: var(--color-primary);
 }
-
+.team .team-item{
+  display: grid;
+}
 .team .team-item .team-img {
   width: 350px;
   border-radius: 50%;
