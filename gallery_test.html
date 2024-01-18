@@ -27,12 +27,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- load jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-
-  <!-- load Galleria -->
-  <script src="assets/vendor/galleria/dist/galleria.js"></script>
-  <link href="assets/vendor/galleria/dist/themes/azur/galleria.azur.css" rel="stylesheet">
+  <!-- nanogallery2 -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -81,114 +79,65 @@
       </div><!-- End Breadcrumbs -->
 
     
-<div class="container"> 
-  <div class="section-header pt-4">
+<div class="container">   
+<section>  
+  <div class="section-header">
     <h2>Galeria de Fotos</h2>
     <p>Explore nossa Galeria de Fotos e mergulhe nos momentos inesquecíveis dos eventos que já realizamos! 
       Testemunhe a energia contagiante da nossa comunidade, sempre ativa e participativa, celebrando juntos cada conquista e experiência única. </p>
   </div>
-</div>
 
-<section class="pt-0"> 
-  <div id="album01" class="container">  
-    <div class="row gy-4 album-photos">
-      <div class="col-lg-4">
-        <h3>Nome do Album 1</h3>
-        <p>Descrição do Album</p>
-      </div>
-  
-      <div class="col-lg-8">
-        <div class="galleria">
-          <img src="assets/img/gallery/img_01.jpg" data-title="Titulo" data-description="Descrição">
-          <img src="assets/img/gallery/img_02.jpg">
-          <img src="assets/img/gallery/img_03.jpg">
-          <img src="assets/img/gallery/img_04.jpg">
-          <img src="assets/img/gallery/img_05.jpg">
-          <img src="assets/img/gallery/img_06.jpg">
-          <img src="assets/img/gallery/img_07.jpg">
-          <img src="assets/img/gallery/img_08.jpg">
-          <img src="assets/img/gallery/img_09.jpg">
-          <img src="assets/img/gallery/img_10.jpg">
-          <a href="https://www.youtube.com/watch?v=f3_Zrs_yvS8">
-            <span class="video">Works for youtube too.</span>
-          </a>
-        </div>
-      </div>
-    </div>
+  <!-- https://pmonteirorf.github.io/proj_tenis_escola/ -->
+  <!-- C:/ProjetosPHP/GIT_proj_tenis_escola/ -->
+  <div ID="photo_gallery" data-nanogallery2='{
+    "itemsBaseURL": "C:/ProjetosPHP/GIT_proj_tenis_escola/",
+    "thumbnailWidth": "200",
+    "thumbnailHeight": "auto",
+    "thumbnailBorderVertical": 0,
+    "thumbnailBorderHorizontal": 0,
+    "thumbnailLabel": {
+      "position": "overImageOnBottom"
+    },
+    "thumbnailHoverEffect2": "scale120",
+    "thumbnailAlignment": "center",
+    "thumbnailOpenImage": true,
+  }'>
+    <a href="assets/img/gallery/img_01.jpg" data-ngthumb="assets/img/gallery/img_01.jpg">title</a>
+    <a href="assets/img/gallery/img_02.jpg" data-ngthumb="assets/img/gallery/img_02.jpg">title</a>
+    <a href="assets/img/gallery/img_03.jpg" data-ngthumb="assets/img/gallery/img_03.jpg">title</a>
+    <a href="assets/img/gallery/img_04.jpg" data-ngthumb="assets/img/gallery/img_04.jpg">title</a>
+    <a href="assets/img/gallery/img_05.jpg" data-ngthumb="assets/img/gallery/img_05.jpg">title</a>
+    <a href="assets/img/gallery/img_06.jpg" data-ngthumb="assets/img/gallery/img_06.jpg">title</a>
+    <a href="assets/img/gallery/img_07.jpg" data-ngthumb="assets/img/gallery/img_07.jpg">title</a>
+    <a href="assets/img/gallery/img_08.jpg" data-ngthumb="assets/img/gallery/img_08.jpg">title</a>
+    <a href="assets/img/gallery/img_09.jpg" data-ngthumb="assets/img/gallery/img_09.jpg">title</a>
+    <a href="assets/img/gallery/img_10.jpg" data-ngthumb="assets/img/gallery/img_10.jpg">title</a>
+    <a href="assets/img/gallery/img_11.jpg" data-ngthumb="assets/img/gallery/img_11.jpg">title</a>
+    <a href="assets/img/gallery/img_12.jpg" data-ngthumb="assets/img/gallery/img_12.jpg">title</a>
+    <a href="assets/img/gallery/img_13.jpg" data-ngthumb="assets/img/gallery/img_13.jpg">title</a>
+    <a href="assets/img/gallery/img_14.jpg" data-ngthumb="assets/img/gallery/img_14.jpg">title</a>
+    <a href="assets/img/gallery/img_15.jpg" data-ngthumb="assets/img/gallery/img_15.jpg">title</a>
+    <a href="https://www.youtube.com/watch?v=f3_Zrs_yvS8" data-ngthumb="assets/img/gallery/video_01.jpg">video</a>
+    <a href="assets/img/gallery/img_16.jpg" data-ngthumb="assets/img/gallery/img_16.jpg">title</a>
+    <a href="assets/img/gallery/img_17.jpg" data-ngthumb="assets/img/gallery/img_17.jpg">title</a>
+    <a href="assets/img/gallery/img_18.jpg" data-ngthumb="assets/img/gallery/img_18.jpg">title</a>
+    <a href="assets/img/gallery/img_19.jpg" data-ngthumb="assets/img/gallery/img_19.jpg">title</a>
+    <a href="assets/img/gallery/img_20.jpg" data-ngthumb="assets/img/gallery/img_20.jpg">title</a>
+    <a href="assets/img/gallery/img_21.jpg" data-ngthumb="assets/img/gallery/img_21.jpg">title</a>
+    <a href="assets/img/gallery/img_22.jpg" data-ngthumb="assets/img/gallery/img_22.jpg">title</a>
+    <a href="assets/img/gallery/img_23.jpg" data-ngthumb="assets/img/gallery/img_23.jpg">title</a>
+    <a href="assets/img/gallery/img_24.jpg" data-ngthumb="assets/img/gallery/img_24.jpg">title</a>
+    <a href="assets/img/gallery/img_25.jpg" data-ngthumb="assets/img/gallery/img_25.jpg">title</a>
+    <a href="assets/img/gallery/img_26.jpg" data-ngthumb="assets/img/gallery/img_26.jpg">title</a>
+    <a href="assets/img/gallery/img_27.jpg" data-ngthumb="assets/img/gallery/img_27.jpg">title</a>
+    <a href="assets/img/gallery/img_28.jpg" data-ngthumb="assets/img/gallery/img_28.jpg">title</a>
+    <a href="assets/img/gallery/img_29.jpg" data-ngthumb="assets/img/gallery/img_29.jpg">title</a>
+    <a href="assets/img/gallery/img_30.jpg" data-ngthumb="assets/img/gallery/img_30.jpg">title</a>
+    <a href="assets/img/gallery/img_31.jpg" data-ngthumb="assets/img/gallery/img_31.jpg">title</a>
+
   </div>
-</section>
-
-<section class="section-bg"> 
-  <div id="album02" class="container">      
-    <div class="row gy-4 mt-4 album-photos">
-      <div class="col-lg-4">
-        <h3>Nome do Album 2</h3>
-        <p>Descrição do Album</p>
-      </div>
-  
-      <div class="col-lg-8">
-        <div class="galleria">
-          <img src="assets/img/gallery/img_11.jpg" data-title="Titulo" data-description="Descrição">
-          <img src="assets/img/gallery/img_12.jpg">
-          <img src="assets/img/gallery/img_13.jpg">
-          <img src="assets/img/gallery/img_14.jpg">
-          <img src="assets/img/gallery/img_15.jpg">
-          <img src="assets/img/gallery/img_16.jpg">
-          <img src="assets/img/gallery/img_18.jpg">
-          <img src="assets/img/gallery/img_19.jpg">
-          <img src="assets/img/gallery/img_20.jpg">
-          <a href="https://www.youtube.com/watch?v=f3_Zrs_yvS8">
-            <span class="video">Works for youtube too.</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section> 
-  <div id="album03" class="container">  
-    <div class="row gy-4 mt-4 mb-4 album-photos">
-      <div class="col-lg-4">
-        <h3>Nome do Album 3</h3>
-        <p>Descrição do Album</p>
-      </div>
-  
-      <div class="col-lg-8">
-        <div class="galleria">
-          <img src="assets/img/gallery/img_21.jpg" data-title="Titulo" data-description="Descrição">
-          <img src="assets/img/gallery/img_22.jpg">
-          <img src="assets/img/gallery/img_23.jpg">
-          <img src="assets/img/gallery/img_24.jpg">
-          <img src="assets/img/gallery/img_25.jpg">
-          <img src="assets/img/gallery/img_26.jpg">
-          <img src="assets/img/gallery/img_27.jpg">
-          <img src="assets/img/gallery/img_28.jpg">
-          <img src="assets/img/gallery/img_29.jpg">
-          <img src="assets/img/gallery/img_30.jpg">
-          <img src="assets/img/gallery/img_31.jpg">
-          <a href="https://www.youtube.com/watch?v=f3_Zrs_yvS8">
-            <span class="video">Works for youtube too.</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<script>
-  (function() {
-      Galleria.loadTheme('assets/vendor/galleria/dist/themes/azur/galleria.azur.js');
-      Galleria.configure({
-        imageCrop: false
-    });
-    Galleria.run('.galleria', {
-        autoplay: 7000 // will move forward every 7 seconds
-    });
-  }());
-</script>
          
-
+</section>
 </div>
 
 </main><!-- End #main -->
