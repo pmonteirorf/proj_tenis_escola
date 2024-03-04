@@ -181,7 +181,32 @@ document.addEventListener('DOMContentLoaded', () => {
     var myModal = new bootstrap.Modal(modalInform)
     myModal.show()
   }
+
+  activeMenu();
   
 
 });
+
+function activeMenu(){
+
+  var urlPage = window.location.href;
+  if(urlPage.includes("contact")){
+    document.getElementById("contatos").classList.add("active");
+
+    document.getElementById("inicio").classList.remove("active");
+    document.getElementById("eventos").classList.remove("active");
+
+  }else if(urlPage.includes("anuario")){
+    document.getElementById("eventos").classList.add("active");
+
+    document.getElementById("inicio").classList.remove("active");
+    document.getElementById("contatos").classList.remove("active");
+
+  }else{
+    document.getElementById("inicio").classList.add("active");
+
+    document.getElementById("eventos").classList.remove("active");
+    document.getElementById("contatos").classList.remove("active");
+  }
+}
 
