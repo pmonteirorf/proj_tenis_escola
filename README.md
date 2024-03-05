@@ -13,10 +13,3 @@ Esta branch refe-se a fase 2 do site Tênis Escola, na qual utiliza as seguintes
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> 
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 
-
-## 📋 Modelo
-
-Como base para a criação do site, foi utilizado o template abaixo:
-
-[UpConstruction - Bootstrap Website Template ](https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/)
-
