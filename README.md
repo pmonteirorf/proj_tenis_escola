@@ -28,3 +28,5 @@ Para evitar a repetição de código HTML, como por exemplo o header e o footer 
 Este processo ainda não foi realizado, pois para facilitar a homologação do projeto, o mesmo está hospedado no GitHub Pages, no qual só aceita sites estáticos.
 
 https://pmonteirorf.github.io/proj_tenis_escola/index.html
+
+🚧 [Fase 2 - Em Andamento](https://github.com/pmonteirorf/proj_tenis_escola/blob/proj_tenis_escola_1.2/README.md)
