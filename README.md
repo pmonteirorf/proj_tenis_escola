@@ -1,6 +1,8 @@
 # Projeto Tênis Escola - Fase 2
 
-> Status do Projeto: Em desenvolvimento :warning:
+> Status do Projeto: Em Produção 🚀
+
+https://www.tenisescola.org/
 
 Este projeto é dedicado a criação de um site para o Tênis Escola, que é um projeto social realizado em Minas Gerais, que tem como objetivo transformar vidas de crianças e jovens através do esporte.
 
