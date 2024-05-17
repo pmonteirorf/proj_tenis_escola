@@ -14,6 +14,10 @@ As the website aims to only showcase what is being done in the project, a static
 
 For the Contact page, was used <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"> for message sending.
 
+## 🖼️ Preview
+
+![tenisescola](https://github.com/pmonteirorf/proj_tenis_escola/assets/71394772/220683f4-d873-4dd1-9bb1-8fcac8719b16)
+
 
 ## 📋 Template
 
