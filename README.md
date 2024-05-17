@@ -15,3 +15,7 @@ This branch refers to phase 2 of the Tennis School website, which utilizes the f
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> 
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 
+## 🖼️ Preview
+
+![tenisescola](https://github.com/pmonteirorf/proj_tenis_escola/assets/71394772/220683f4-d873-4dd1-9bb1-8fcac8719b16)
+
